@@ -1,0 +1,27 @@
+#form-add-marker input[name="lat"], #form-add-marker input[name="lng"] {
+    width: 48%;
+}
+
+#form-add-marker input[name="lat"] {
+    margin-right: 2%;
+}
+
+#map {
+    width: 100%;
+    height: 450px;
+}
+
+@media(max-width: 992px){
+    #form-add-marker input[name="lat"], #form-add-marker input[name="lng"] {
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
+
+#titleMsg {
+    display: none;
+}
+
+#latlngMsg {
+    display: none;
+}
